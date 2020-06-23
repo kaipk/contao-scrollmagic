@@ -1,0 +1,26 @@
+<?php $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/scrollmagic/dist/scrollmagic.min.js'; ?>
+<?php $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/scrollmagic/dist/addIndicators.min.js'; ?>
+<?php $GLOBALS['TL_CSS'][] = 'bundles/scrollmagic/dist/scrollmagic.min.css'; ?>
+
+<script>
+  
+  var controller, scene, tl;
+  controller = new ScrollMagic.Controller;
+  tl = new TimelineLite;
+  
+  tl.set('.js-fadeInUp', {
+    visibility: 'visible'
+  }).staggerFrom('.js-fadeInUp .sc-animation', 0.3, {
+    y: 30,
+    autoAlpha: 0
+  }, 0.3, 'stagger');
+
+  scene = new ScrollMagic.Scene({
+    triggerElement: '.js-fadeInUp',
+    duration: 500,
+    offset: -50
+  }).setTween(tl).addTo(controller);
+  
+  console.log("scrollmagic");
+  
+</script>

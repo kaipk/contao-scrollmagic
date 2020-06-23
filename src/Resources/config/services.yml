@@ -1,0 +1,4 @@
+services:
+  scrollmagic.listener.hooks:
+    class: kaipo\ScrollmagicBundle\EventListener\HookListener
+    public: true
