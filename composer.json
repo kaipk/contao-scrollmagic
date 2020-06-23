@@ -1,16 +1,22 @@
 {
-  "name": "kaipo/contao-scrollmagic",
+  "name": "kaipk/contao-scrollmagic",
   "description": "Animate content elements on scrollspeed",
   "keywords": ["contao", "animate", "scroll", "viewport"],
   "type": "contao-bundle",
   "license": "MIT",
+  "authors": [
+	{
+		"name": "KAIPO EDV IT Ges.m.b.H",
+		"homepage": "https://github.com/kaipk/contao-scrollmagic"
+	}  
+  ],
   "require": {
     "php": ">=7.0",
     "contao/core-bundle": "^4.4"
   },
   "autoload": {
     "psr-4": {
-      "kaipo\\ScrollmagicBundle\\": "src/"
+      "kaipk\\ScrollmagicBundle\\": "src/"
     },
     "classmap": [
       "src/Resources/contao/"
@@ -23,6 +29,6 @@
     ]
   },
   "extra": {
-    "contao-manager-plugin": "kaipo\\ScrollmagicBundle\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "kaipk\\ScrollmagicBundle\\ContaoManager\\Plugin"
   }
 }

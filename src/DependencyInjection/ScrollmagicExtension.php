@@ -1,6 +1,6 @@
 <?php
 
-namespace kaipo\ScrollmagicBundle\DependencyInjection;
+namespace kaipk\ScrollmagicBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

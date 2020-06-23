@@ -1,6 +1,6 @@
 <?php
 
-namespace kaipo\ScrollmagicBundle\EventListener;
+namespace kaipk\ScrollmagicBundle\EventListener;
 
 /**
  * Class HookListener

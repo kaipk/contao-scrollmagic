@@ -1,6 +1,6 @@
 <?php
 
-namespace kaipo\ScrollmagicBundle;
+namespace kaipk\ScrollmagicBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

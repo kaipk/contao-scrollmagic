@@ -1,7 +1,7 @@
 <?php
 
 
-namespace kaipo\ScrollmagicBundle\ContaoManager;
+namespace kaipk\ScrollmagicBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
@@ -21,7 +21,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create('kaipo\ScrollmagicBundle\ScrollmagicBundle')
+            BundleConfig::create('kaipk\ScrollmagicBundle\ScrollmagicBundle')
                 ->setLoadAfter([ContaoCoreBundle::class])
         ];
     }
